@@ -124,6 +124,39 @@ body {
     margin-left: 0px;
 }
 
+/* --------/// ----cardAboutwork------------ */
+
+.cardAboutwork {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+}
+
+.cardAboutworkTittle {
+    font-weight: bolder;
+    font-size: 40px;
+
+}
+
+
+
+
+.cardAboutworkImg img {
+    /* width: 80%; */
+    height: 800px;
+    margin-left: 30px;
+}
+
+.workTittles div {
+    margin: 10px;
+    padding: 20px 10px;
+    box-shadow: 5px 5px 5px 5px whitesmoke;
+    width: 80%;
+}
+
+
+
+
 
 
 
@@ -156,6 +189,9 @@ body {
     }
 }
 
+
+/*----- section of teh past cardSection ----- */
+
 @media only screen and (max-width:576px) {
     .CardArticle {
         flex-direction: column;
@@ -169,3 +205,6 @@ body {
     }
 
 }
+
+
+/* section of teh second cardSection ----- */
