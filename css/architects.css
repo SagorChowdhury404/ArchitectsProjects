@@ -1,12 +1,23 @@
 * {
     margin: 0px;
-    /* width: 100%; */
 }
 
+body {
+    /* google font sige popin  */
+
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
 
 /* header and  nav style start-------------- */
 
-.header {}
+.header {
+    background-color: rgb(240, 225, 208);
+    margin: 0px;
+    padding: 10px 0px 30px;
+    margin-bottom: 50px;
+}
 
 .navSection {
     display: flex;
@@ -30,11 +41,12 @@
 
 .NavachoorTag a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 50px;
+    color: black;
 }
 
-/* //////////////////////////////---------- */
+/* //////////////////////////////  bvanner section---------- */
 
 .BannerSection {
     margin: 40px 0px 10px;
@@ -46,6 +58,7 @@
     font-weight: bolder;
     font-size: 32px;
     margin-bottom: 10px;
+
 }
 
 .BannerDescription {
@@ -53,12 +66,63 @@
     font-size: 16px;
 }
 
+.BannerBtn {
+    margin: 40px;
+    font-size: 18px;
+    padding: 10px 15px;
+    color: whitesmoke;
+    background: #FF900E;
+    border-radius: 8px;
+
+}
+
+/*--------- bannerSection - img ---- */
+.BannerImg img {
+    width: 80%;
+    padding-left: 120px;
+    border-radius: 8px;
+}
 
 
 
+/* -------------main-- CardArticle section---------//////////// */
 
 
+.CardArticle {
+    display: flex;
+    width: 80%;
+    margin-left: 150px;
+    margin-bottom: 100px;
 
+}
+
+.cardImgs {
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.cardImgs img {
+    width: 250px;
+}
+
+.CardsDescription {
+    margin-top: 130px;
+    margin-left: 50px;
+
+
+}
+
+.CardDescriptionTittle {
+    font-size: 35px;
+    margin: 15px 0px;
+}
+
+.BannerBtn {
+    margin-left: 0px;
+}
 
 
 
@@ -72,7 +136,8 @@
 @media only screen and (max-width:576px) {
 
     .navSection,
-    .NavachoorTag a {
+    .NavachoorTag a,
+    .BannerImg img {
         flex-direction: column;
         width: 100%;
         padding: 15px;
@@ -89,4 +154,18 @@
         margin: 0px;
 
     }
+}
+
+@media only screen and (max-width:576px) {
+    .CardArticle {
+        flex-direction: column;
+        margin: 50px;
+    }
+
+    .cardImgs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px 100px;
+    }
+
 }
