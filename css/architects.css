@@ -46,7 +46,7 @@ body {
     color: black;
 }
 
-/* //////////////////////////////  bvanner section---------- */
+/* //////////////////////////////  banner section---------- */
 
 .BannerSection {
     margin: 40px 0px 10px;
@@ -147,6 +147,18 @@ body {
     margin-left: 30px;
 }
 
+.exprences {
+    font-size: 30px;
+    background-color: #FF900E;
+    padding: 30px 50px;
+    border-radius: 8px;
+    position: relative;
+    margin-top: -10%;
+
+
+}
+
+
 .workTittles div {
     margin: 10px;
     padding: 20px 10px;
@@ -154,17 +166,81 @@ body {
     width: 80%;
 }
 
+/* factSection---------------- */
+
+.factSection {
+
+
+    margin: 40px 0px;
+}
+
+/* .factSection:hover {
+  
+} */
+
+.factInfo {
+    margin-left: 5%;
+    margin: 50px;
+}
+
+.factSectionTittle {
+    font-size: 40px;
+}
+
+.factSectiondescription {}
+
+.factSectionImgs {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.factSectionImg {
+    border: 2px solid tomato;
+    padding: 30px;
+    margin: 10px;
+
+}
+
+.factSectionImg:hover {
+
+    transform: scale(1.5);
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+
+/* ---------------  our sponspors */
+
+.OurSponsporsSectionInfo {
+    font-size: 20px;
+    text-align: center;
+}
+
+.OurSponsporsimgs {
+    width: 80%;
+    margin: 30px 0px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    margin-top: 100px;
+    height: 200px;
+    width: 100%;
+    color: aliceblue;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 
 
 
-
-
-
-
-
-
-
-/* nav squerr start --- */
+/* nav qurey style start --- */
 
 @media only screen and (max-width:576px) {
 
@@ -177,6 +253,7 @@ body {
         margin: 0px;
 
     }
+
 }
 
 @media only screen and (min-width:577px) and (max-width: 768px) {
@@ -190,7 +267,7 @@ body {
 }
 
 
-/*----- section of teh past cardSection ----- */
+/*----- section of the past cardSection ----- */
 
 @media only screen and (max-width:576px) {
     .CardArticle {
@@ -228,6 +305,30 @@ body {
         padding: 0px;
     }
 }
+
+
+/* -----------------------.fact mediea query Sections */
+
+@media only screen and (max-width:576px) {
+    .factSectionImgs {
+        flex-direction: column;
+    }
+
+}
+
+
+/* --------------- our sponspors ---///*/
+
+@media only screen and (max-width:576px) {
+    .OurSponsporsimgs {
+        flex-direction: column;
+        width: 300px;
+        /* gap: 10px; */
+        padding: 20px;
+        margin: 0px;
+    }
+}
+
 
 
 
