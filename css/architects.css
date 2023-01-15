@@ -30,7 +30,7 @@ body {
 }
 
 .WebTittle {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bolder;
     color: black;
 }
@@ -133,12 +133,12 @@ body {
 }
 
 .cardAboutworkTittle {
+    border-left: 5px solid #FF900E;
+    padding-left: 25px;
     font-weight: bolder;
     font-size: 40px;
 
 }
-
-
 
 
 .cardAboutworkImg img {
@@ -173,7 +173,7 @@ body {
     .BannerImg img {
         flex-direction: column;
         width: 100%;
-        padding: 15px;
+        padding: 0px;
         margin: 0px;
 
     }
@@ -195,16 +195,42 @@ body {
 @media only screen and (max-width:576px) {
     .CardArticle {
         flex-direction: column;
-        margin: 50px;
+        margin: 0px;
+        text-align: center;
+
     }
 
     .cardImgs {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin: 0px 100px;
+        margin: 0px;
+        padding: 5px 40px;
+        ;
+
+
     }
 
 }
 
 
 /* section of teh second cardSection ----- */
+
+@media only screen and (max-width:576px) {
+    .cardAboutwork {
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .cardAboutworkImg img {
+        width: 360px;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+
+
+/* .hide {
+    display: none;
+} */
