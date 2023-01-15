@@ -238,6 +238,36 @@ body {
 
 }
 
+/* contact style  */
+
+.contact {
+    background: linear-gradient(#e66465, #9198e5);
+    padding: 100px;
+    text-align: center;
+}
+
+.contactInfoTittle {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+   
+}
+.contact input{
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* nav qurey style start --- */
